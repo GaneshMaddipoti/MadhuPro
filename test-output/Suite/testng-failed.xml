@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="title" value="Home"/>
+  <test name="Test(failed)">
+    <parameter name="title" value="Home"/>
+    <classes>
+      <class name="com.redbus.scripts.VerifyHomePage_Test">
+        <methods>
+          <include name="initVars"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="VerifyReturnJourny" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.redbus.scripts.VerifyHomePage_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

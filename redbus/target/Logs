@@ -1,0 +1,6 @@
+[main] INFO  seleniumtasks.SampleLog  - logged
+[main] DEBUG seleniumtasks.SampleLog  - printed
+[main] INFO  seleniumtasks.SampleLog  - printing
+[main] INFO  seleniumtasks.SampleLog  - logged
+[main] DEBUG seleniumtasks.SampleLog  - printed
+[main] INFO  seleniumtasks.SampleLog  - printing
