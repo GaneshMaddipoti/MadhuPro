@@ -15,7 +15,7 @@ import com.redbus.scripts.SuperTestNG;
 
 public class BookTicketPage {
 	
-	@FindBy(xpath="(//div[@class='busItem clearfix']/../..//button[@class='viewSeatsBtn'])[1]")
+	@FindBy(xpath="(//div[contains(@class,'tripView') and not(contains(@style,'display: none;'))]//button)[1]")
 	private WebElement viewSeatsBtn;
 	
 	@FindBy(xpath="//div[@class='seatLayoutHolder clearfix']")

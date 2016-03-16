@@ -54,7 +54,7 @@ public class BookTicketPageLib {
 
 		Select s = new Select(btp.getBoardingPoint());
 
-		s.selectByVisibleText("Madiwala - 11:30 PM  ");
+		s.selectByVisibleText("Madiwala - 04:45 PM  ");
 
 		btp.getContinueBtn().click();
 
